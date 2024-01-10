@@ -1,0 +1,16 @@
+GIT COMMANDS TO UPLOAD FILES 
+cd path of project 
+git init
+git add .
+git commit -m "First Commit"
+git remote add origin https://adress_of_repository
+git push -u origin master
+
+
+
+
+IF THERE IS A PROBLEM CANNOT  COMMIT REF TO REMOTE LIB THAN 
+git pull --rebase origin master
+than you can check sequence of commit accordingly. -->
+git push -u origin master
+FILES SUCCESSFULLY PUSHED.
